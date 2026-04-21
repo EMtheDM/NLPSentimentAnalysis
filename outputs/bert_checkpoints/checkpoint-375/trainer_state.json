@@ -1,0 +1,53 @@
+{
+  "best_global_step": 375,
+  "best_metric": 0.8984962406015038,
+  "best_model_checkpoint": "outputs/bert_checkpoints/checkpoint-375",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 375,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "grad_norm": 20.810075759887695,
+      "learning_rate": 1.0026666666666667e-05,
+      "loss": 0.3788743896484375,
+      "step": 375
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.892,
+      "eval_f1": 0.8984962406015038,
+      "eval_loss": 0.34982505440711975,
+      "eval_precision": 0.8535714285714285,
+      "eval_recall": 0.9484126984126984,
+      "eval_runtime": 6.0734,
+      "eval_samples_per_second": 164.653,
+      "eval_steps_per_second": 20.582,
+      "step": 375
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 750,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 2,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 138254568134784.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
