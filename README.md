@@ -9,7 +9,7 @@ The goal is to evaluate whether modern transformer models provide meaningful imp
 
 ## How to Run the Project
 
-### 1. Create and Activate Virtual Environment (Recommended)
+### 1. Create and Activate Virtual Environment
 
 ```bash
 python -m venv .venv
@@ -101,16 +101,3 @@ outputs/model_comparison.csv
 
 ---
 
-## Notes
-
-- First run downloads dataset and model
-- BERT training takes longer than baseline
-- Works on Apple Silicon using PyTorch MPS
-
----
-
-## Summary
-
-- Traditional models are fast and effective
-- Transformer models perform better
-- Context matters in NLP
